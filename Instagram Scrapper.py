@@ -18,8 +18,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-#---
-
 # Defining the scrapeInstagram() with the soup1 as the argument
 def scrapeInstagram(soup1):
     # Creating empty list called insta_Data for saving the scrapped results
@@ -47,8 +45,6 @@ def scrapeInstagram(soup1):
     print("\nNo OF FOLLOWERS    :   ", followers)
     print("\nNo OF FOLLOWING    :   ", following)
 
-#---
-
 # Driver Code
 if __name__ == '__main__':
 
@@ -68,5 +64,3 @@ if __name__ == '__main__':
 
     # Calling the scrapeInstagram() with soup as the argument
     scrapeInstagram(soup)
-
-#---
